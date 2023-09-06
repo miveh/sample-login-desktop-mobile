@@ -1,0 +1,45 @@
+body{
+    
+    height: 100dvh;
+    background-color: #B1D9DB;
+}
+
+.bg-chineseLacquer{
+    background-color: #5EC5C8;
+}
+
+.text-chineseLacquer{
+    color: #5EC5C8;
+}
+
+button:hover{
+    background-color: #B1D9DB !important;
+}
+
+button:active{
+    
+    background-color: #80a2a3 !important;
+}
+
+#social-link > div {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#social-link > div > img{
+    width: 20px;
+    height: 20px;
+}
+
+.line-through{
+    text-decoration: line-through;
+    text-decoration-color:white ;
+    text-decoration-thickness: 2px;
+}
+
+.img-absolute{
+    width: 600px;
+    height: 600px;
+    margin: 124px;
+    position: absolute;
+    z-index: 100;
+}
